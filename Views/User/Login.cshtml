@@ -1,0 +1,124 @@
+﻿@model INTERNMvc.Models.User
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<style>
+    .bkgcont {
+        background-image: url('/Images/handshake.png');
+        background-size: cover; /* Ensures the image covers the entire container */
+        background-position: left; /* Aligns the image to the left */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        height: 100vh; /* Full viewport height */
+        display: flex; /* Enables Flexbox layout */
+        align-items: center; /* Centers items vertically */
+        justify-content: center; /* Centers items horizontally */
+        padding: 20px; /* Adds padding around the container */
+    }
+
+    .login-container {
+        
+        
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+        left: 0;
+        opacity : 0.9;
+    }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .button-group {
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
+
+<div class="bkgcont">
+    <div class="login-container">
+        @using (Html.BeginForm("Login", "User", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="ID_LoginUser" name="username" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password &emsp;&emsp;&emsp; <a href="~/ForgotPassword/Index">Forgot Password? </a></label>
+                <input type="password" id="ID_LoginPass" name="password" class="form-control" />
+                <span id="passwordMessage" style="color:red;"></span> <!-- To show password validation message -->
+                <div><a href="~/User/ChangePassword">Need to change password?</a></div>
+                
+            </div>
+
+            <div class="form-group">
+                <input type="submit" id="ID_LoginSubmit" value="Login" class="btn btn-primary" />
+            </div>
+        }
+
+        <p>@ViewBag.Message</p>
+
+        <div class="button-group">
+            <div>
+                <p> New to <img src="~/images/mylapaylogo3.png" alt="Logo" style="height:25px;" />? <!-- Adjust the height as needed --><a href="~/User/Register">Register here.</a></p>
+            </div> 
+            
+           
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#ID_LoginSubmit").click(function (event) {
+            var username = $("#ID_LoginUser").val();
+            var password = $("#ID_LoginPass").val();
+            var isValid = true;
+            var passwordMessage = $("#passwordMessage");
+
+            // Clear previous messages
+            passwordMessage.text("");
+
+            // Check username
+            if (username === "") {
+                alert("Username is required");
+                isValid = false;
+            }
+
+            // Check password
+            if (password === "") {
+                alert("Password is required");
+                isValid = false;
+            } else {
+                // Password validation
+                var passwordRegex = /^(?=.*[A-Z])(?=.*[\W_]).{6,}$/;
+                if (!passwordRegex.test(password)) {
+                    passwordMessage.text('Password must contain at least one uppercase letter, one special character, and be at least 6 characters long.');
+                    isValid = false;
+                }
+            }
+
+            // Prevent form submission if any validation fails
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    });
+</script>

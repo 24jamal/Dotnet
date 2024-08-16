@@ -1,0 +1,95 @@
+﻿@model INTERNMvc.Models.Employee
+
+
+@{
+    ViewData["Title"] = "Create Employee";
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<h3>@ViewData["Title"]</h3>
+<hr />
+
+@if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-success">
+        <b>Success: </b>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div style="background-image: url('/Images/imagesback.jpeg'); background-size: cover; padding: 20px; border-radius: 8px;">
+    <form asp-action="Create" method="post" id="createEmployeeForm">
+        <div class="mb-3">
+            <label asp-for="FirstName" class="form-label"></label>
+            <input type="text" id="ID_FirstName" asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="LastName" class="form-label"></label>
+            <input type="text" id="ID_LastName" asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DateofBirth" class="form-label"></label>
+            <input type="date" id="ID_DOB" asp-for="DateofBirth" class="form-control" />
+            <span asp-validation-for="DateofBirth" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input type="email" id="ID_Email" asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Salary" class="form-label"></label>
+            <input type="number" id="ID_Salary" asp-for="Salary" step="0.01" class="form-control" />
+            <span asp-validation-for="Salary" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" id="btnSubmit" class="btn btn-primary">Create</button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#createEmployeeForm").submit(function () {
+            var isValid = true;
+
+            if ($("#ID_FirstName").val().trim() === "") {
+                alert("First Name is required");
+                isValid = false;
+            }
+
+            if ($("#ID_LastName").val().trim() === "") {
+                alert("Last Name is required");
+                isValid = false;
+            }
+
+            if ($("#ID_DOB").val().trim() === "") {
+                alert("DOB is required");
+                isValid = false;
+            }
+
+            if ($("#ID_Email").val().trim() === "") {
+                alert("Email is required");
+                isValid = false;
+            }
+
+            if ($("#ID_Salary").val().trim() === "") {
+                alert("Salary is required");
+                isValid = false;
+            }
+
+            return isValid;
+        });
+    });
+</script>
+

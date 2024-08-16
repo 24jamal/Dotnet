@@ -1,0 +1,52 @@
+﻿@model INTERNMvc.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+
+<h3>@ViewData["Title"]?.ToString()</h3>
+<hr />
+
+@if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-success">
+        <b>Success:: </b>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="Close">
+        </button>
+    </div>
+}
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label"></label>
+        <input type="text" asp-for="FirstName" class="form-control" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label"></label>
+        <input type="text" asp-for="LastName" class="form-control" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DateofBirth" class="form-label"></label>
+        <input type="date" asp-for="DateofBirth" class="form-control" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input type="text" asp-for="Email" class="form-control" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Salary" class="form-label"></label>
+        <input type="number" asp-for="Salary" step="0.01" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

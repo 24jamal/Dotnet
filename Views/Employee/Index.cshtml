@@ -1,0 +1,245 @@
+﻿@model List<INTERNMvc.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<h3>@ViewData["Title"]</h3>
+
+<div class="d-flex justify-content-between align-items-center">
+
+    <div class="search-bar1 d-flex align-items-center">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">Home</a>
+            <a href="#">Employees</a>
+            <a href="#">Reports</a>
+            <a href="#">Settings</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+        <input type="text" id="searchInput" class="form-control me-2" placeholder="Search by name..." />
+        <button id="searchButton" class="btn btn-dark">Search</button>
+    </div>
+    <div>
+        <label for="pageSizeSelect">Page Size:</label>
+        <select id="pageSizeSelect" class="form-select" style="width: auto;">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="50">50</option>
+        </select>
+    </div>
+    <div>
+        <button id="exportButton" class="btn btn-success">Export to CSV</button>
+    </div>
+</div>
+
+<div id="employeeTableContainer">
+    <table class="table table-responsive table-bordered table-hover">
+        <thead>
+            <tr class="table-active">
+                <th>ID</th>
+                <th>FullName</th>
+                <th>Date of Birth</th>
+                <th>Email</th>
+                <th>Salary</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+            <!-- Employee rows will be populated here by jQuery -->
+        </tbody>
+    </table>
+</div>
+
+<div id="pagination">
+    <!-- Pagination controls will be added here by jQuery -->
+</div>
+
+<script>
+    $(document).ready(function () {
+        let pageSize = $('#pageSizeSelect').val();
+        let currentPage = 1;
+
+        function fetchEmployees(page, searchTerm = '') {
+            $.ajax({
+                url: '/Employee/GetEmployees',
+                type: 'GET',
+                data: { page: page, pageSize: pageSize, searchTerm: searchTerm },
+                success: function (response) {
+                    renderEmployees(response.data);
+                    renderPagination(response.totalRecords, pageSize, page);
+                },
+                error: function (xhr, status, error) {
+                    alert("An error occurred while fetching data: " + error);
+                }
+            });
+        }
+
+        function renderEmployees(employees) {
+            const $tableBody = $('#employeeTableBody');
+            $tableBody.empty();
+
+            $.each(employees, function (index, employee) {
+                const row = `<tr>
+                                <td>${employee.id}</td>
+                                <td>${employee.fullName}</td>
+                                <td>${new Date(employee.dateofBirth).toLocaleDateString()}</td>
+                                <td>${employee.email}</td>
+                                <td>${employee.salary}</td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        <a href="/Employee/Edit/${employee.id}" class="btn btn-primary">Edit</a>
+                                        <a href="/Employee/Delete/${employee.id}" class="btn btn-danger">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>`;
+                $tableBody.append(row);
+            });
+        }
+
+        function renderPagination(totalRecords, pageSize, currentPage) {
+            const totalPages = Math.ceil(totalRecords / pageSize);
+            let paginationHtml = '';
+
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === currentPage) {
+                    paginationHtml += `<span class="page-link active">${i}</span>`;
+                } else {
+                    paginationHtml += `<a href="javascript:void(0);" class="page-link" data-page="${i}">${i}</a>`;
+                }
+            }
+
+            $('#pagination').html(`<nav><ul class="pagination">${paginationHtml}</ul></nav>`);
+
+            $('.page-link').click(function () {
+                const page = $(this).data('page');
+                fetchEmployees(page, $('#searchInput').val());
+            });
+        }
+
+        $('#searchButton').click(function () {
+            currentPage = 1;
+            fetchEmployees(currentPage, $('#searchInput').val());
+        });
+
+        $('#pageSizeSelect').change(function () {
+            pageSize = $(this).val();
+            currentPage = 1; // Reset to the first page whenever the page size changes
+            fetchEmployees(currentPage, $('#searchInput').val());
+        });
+
+        // Fetch the first page when the page loads
+        fetchEmployees(currentPage);
+    });
+</script>
+
+<style>
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .search-bar1 {
+        box-sizing: border-box;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        let pageSize = $('#pageSizeSelect').val();
+        let currentPage = 1;
+
+        // Existing functions remain the same...
+
+        $('#exportButton').click(function () {
+            window.location.href = '/Employee/ExportToCsv';
+        });
+
+        // Existing fetchEmployees and render functions...
+
+        // Existing search and page size change handling...
+
+        fetchEmployees(currentPage);
+    });
+</script>
+
+
+<script>
+
+    //JQuery for Side Bar
+
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+
+
+<style>
+    /* The sidebar menu */
+    .sidebar {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: black; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    }
+
+        /* The navigation menu links */
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+            /* When you mouse over the navigation links, change their color */
+            .sidebar a:hover {
+                color: #f1f1f1;
+            }
+
+        /* Position and style the close button (top right corner) */
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+    /* Style the open button */
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+        .openbtn:hover {
+            background-color: #444;
+        }
+</style>

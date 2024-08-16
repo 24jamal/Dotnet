@@ -1,0 +1,140 @@
+﻿@model INTERNMvc.Models.User
+
+@{
+    ViewBag.Title = "Register";
+}
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<style>
+
+    .bkgcont {
+        background-image: url('/Images/merchantpos.jpeg');
+        background-size: cover; /* Ensures the image covers the entire container */
+        background-position: left; /* Aligns the image to the left */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        height: 100vh; /* Full viewport height */
+        display: flex; /* Enables Flexbox layout */
+        align-items: center; /* Centers items vertically */
+        justify-content: center; /* Centers items horizontally */
+        padding: 20px; /* Adds padding around the container */
+    }
+
+    .register-container {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+        opacity: 0.9;
+    }
+
+        .register-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .button-group {
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
+
+<div class="bkgcont">
+    <div class="register-container">
+        @using (Html.BeginForm("Register", "User", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.Username)
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-control", id = "ID_RegisterUser" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", id = "ID_RegisterPass" })
+                <span id="passwordMessage" style="color:red;"></span> <!-- To show password validation message -->
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "ID_RegisterEmail" })
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" id="ID_RegisterSubmit" />
+            </div>
+        }
+
+        <p>@ViewBag.Message</p>
+
+        <div>
+            <p>&emsp;&emsp;&emsp;&emsp; Already have an account? <a href="~/User/Login">Login here.</a></p>
+        </div>
+        
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#ID_RegisterSubmit").click(function (event) {
+            var username = $("#ID_RegisterUser").val();
+            var password = $("#ID_RegisterPass").val();
+            var email = $("#ID_RegisterEmail").val();
+            var passwordMessage = $("#passwordMessage");
+            var isValid = true;
+
+            // Clear previous messages
+            passwordMessage.text("");
+
+            // Check username
+            if (username === "") {
+                alert("Username is required");
+                isValid = false;
+            }
+
+            // Check password
+            if (password === "") {
+                alert("Password is required");
+                isValid = false;
+            } else {
+                // Password validation
+                var passwordRegex = /^(?=.*[A-Z])(?=.*[\W_]).{6,}$/;
+                if (!passwordRegex.test(password)) {
+                    passwordMessage.text('Password must contain at least one uppercase letter, one special character, and be at least 6 characters long.');
+                    isValid = false;
+                }
+            }
+
+            // Check email
+            if (email === "") {
+                alert("Email is required");
+                isValid = false;
+            } else {
+
+            }
+            // Prevent form submission if any validation fails
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    });
+</script>
+
