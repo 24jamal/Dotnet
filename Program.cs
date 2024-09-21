@@ -1,5 +1,6 @@
 using INTERNMvc.DAL;
 using INTERNMvc.Services;
+using INTERNMVCNew.DAL;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -12,15 +13,29 @@ namespace INTERNMvc
             var builder = WebApplication.CreateBuilder(args);
 
 
-            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDistributedMemoryCache();
+            // Add session services
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // Set the session timeout value
+                options.Cookie.HttpOnly = true; // Make the session cookie HTTP-only
+                options.Cookie.IsEssential = true; // Mark the cookie as essential for the session to work even under certain privacy regulations
+            });
+
+            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
             builder.Services.AddScoped<Employee_DAL>();
             builder.Services.AddScoped<UserDAL>();
+          
+
+            builder.Services.AddSession();
             builder.Services.AddScoped<EmailService>();
             builder.Services.AddScoped<UserRepository>(provider => new UserRepository(connectionString));
 
-            builder.Services.AddSession();
+           
 
             
             var app = builder.Build();
@@ -39,9 +54,10 @@ namespace INTERNMvc
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession(); // Enable session middleware
+            app.UseAuthentication();
             app.UseAuthorization();
-            app.UseSession();
+            
 
             app.MapControllerRoute(
                 name: "default",

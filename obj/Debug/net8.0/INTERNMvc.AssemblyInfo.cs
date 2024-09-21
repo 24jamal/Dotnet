@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INTERNMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c35be271bab95d407d1c1bcd1aa1d042e1a9cdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("INTERNMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INTERNMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

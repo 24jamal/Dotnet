@@ -1,104 +1,112 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\",
+  "WorkspaceRootPath": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\forgotpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\forgotpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\employee\\singleview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\singleview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\forgotpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\forgotpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\forgotpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\mvc_with_pagination\\internmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|c:\\users\\jamal\\onedrive\\documents\\advanced_analytics_with_captchalogin\\internmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{379A59E2-1BD2-48B6-8E42-78813C2654C4}|INTERNMvc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -115,76 +123,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "SingleView.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\SingleView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\SingleView.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\SingleView.cshtml",
+              "RelativeToolTip": "Views\\Employee\\SingleView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T18:03:19.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAgBAAAAAAAAAAAiwAQBAAAAAAAA",
+              "ViewState": "AQIAANkAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T16:05:04.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Employee_DAL.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\DAL\\Employee_DAL.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\DAL\\Employee_DAL.cs",
               "RelativeDocumentMoniker": "DAL\\Employee_DAL.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\DAL\\Employee_DAL.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\DAL\\Employee_DAL.cs",
               "RelativeToolTip": "DAL\\Employee_DAL.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF4AAAAAAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwHcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T16:07:54.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T16:07:54.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserDAL.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\DAL\\UserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\DAL\\UserDAL.cs",
               "RelativeDocumentMoniker": "DAL\\UserDAL.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\DAL\\UserDAL.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\DAL\\UserDAL.cs",
               "RelativeToolTip": "DAL\\UserDAL.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADwvzwAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAEwCgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T16:14:34.359Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:59:34.945Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAuwHsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T16:13:19.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T17:23:23.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Employee\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AQIAANYAAAAAAAAAAAAswOoAAAAYAAAA",
+              "ViewState": "AQIAANcAAAAAAAAAAAAUwOoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-31T16:57:48.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T16:33:30.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ForgotPasswordController.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\ForgotPasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\ForgotPasswordController.cs",
               "RelativeDocumentMoniker": "Controllers\\ForgotPasswordController.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\ForgotPasswordController.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\ForgotPasswordController.cs",
               "RelativeToolTip": "Controllers\\ForgotPasswordController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAIwCUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,59 +236,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\DAL\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\DAL\\UserRepository.cs",
-              "RelativeToolTip": "DAL\\UserRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAUwCMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:03:14.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\ForgotPassword\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ForgotPassword\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\ForgotPassword\\Index.cshtml",
-              "RelativeToolTip": "Views\\ForgotPassword\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T18:07:13.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\User\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\User\\ChangePassword.cshtml",
-              "RelativeToolTip": "Views\\User\\ChangePassword.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAcwC0AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T17:55:21.383Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T16:43:59.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Employee\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Edit.cshtml",
               "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAUwDkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-12T15:44:57.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T15:15:09.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Employee\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Employee\\Create.cshtml",
               "RelativeToolTip": "Views\\Employee\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -252,23 +284,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwCkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T17:23:23.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,10 +297,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ChangePasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\ChangePasswordModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePasswordModel.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\ChangePasswordModel.cs",
+              "RelativeToolTip": "Models\\ChangePasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:54:02.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\DAL\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\DAL\\UserRepository.cs",
+              "RelativeToolTip": "DAL\\UserRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwCMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:03:14.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:33:30.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\ForgotPassword\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ForgotPassword\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\ForgotPassword\\Index.cshtml",
+              "RelativeToolTip": "Views\\ForgotPassword\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T18:07:13.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\User\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\User\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\User\\ChangePassword.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAcwC0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T17:55:21.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\User\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\User\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\User\\Register.cshtml",
               "RelativeToolTip": "Views\\User\\Register.cshtml",
               "ViewState": "AQIAAHcAAAAAAAAAAAAkwIgAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -288,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\User\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\User\\Login.cshtml",
               "RelativeToolTip": "Views\\User\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -300,23 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-30T16:43:59.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Services\\EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Services\\EmailService.cs",
               "RelativeToolTip": "Services\\EmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -324,31 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T15:59:34.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ChangePasswordModel.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\ChangePasswordModel.cs",
-              "RelativeDocumentMoniker": "Models\\ChangePasswordModel.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\ChangePasswordModel.cs",
-              "RelativeToolTip": "Models\\ChangePasswordModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:54:02.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
@@ -360,23 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T16:13:19.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -384,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -408,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -420,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\jamal\\AppData\\Local\\Temp\\fvavkso3..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\fvavkso3..sql",
@@ -430,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "SQLFORMVC.sql",
               "DocumentMoniker": "C:\\Users\\jamal\\source\\repos\\SQLFORMVC.sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\SQLFORMVC.sql",

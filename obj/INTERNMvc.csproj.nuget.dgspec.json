@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\INTERNMvc.csproj": {}
+    "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\INTERNMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\INTERNMvc.csproj": {
+    "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\INTERNMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\INTERNMvc.csproj",
+        "projectUniqueName": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\INTERNMvc.csproj",
         "projectName": "INTERNMvc",
-        "projectPath": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\INTERNMvc.csproj",
+        "projectPath": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\INTERNMvc.csproj",
         "packagesPath": "C:\\Users\\jamal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamal\\OneDrive\\Documents\\MVC_WITH_PAGINATION\\INTERNMvc\\obj\\",
+        "outputPath": "C:\\Users\\jamal\\OneDrive\\Documents\\Advanced_Analytics_with_CaptchaLogin\\INTERNMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
             "PagedList.Mvc": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",

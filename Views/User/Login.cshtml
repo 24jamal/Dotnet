@@ -2,34 +2,30 @@
 
 @{
     ViewBag.Title = "Login";
+    var errorMessage = TempData["errorMessage"] as string;
 }
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <style>
     .bkgcont {
         background-image: url('/Images/handshake.png');
-        background-size: cover; /* Ensures the image covers the entire container */
-        background-position: left; /* Aligns the image to the left */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        height: 100vh; /* Full viewport height */
-        display: flex; /* Enables Flexbox layout */
-        align-items: center; /* Centers items vertically */
-        justify-content: center; /* Centers items horizontally */
-        padding: 20px; /* Adds padding around the container */
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
     }
 
     .login-container {
-        
-        
         width: 300px;
         padding: 20px;
         border: 1px solid #ddd;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         background-color: #f9f9f9;
-        left: 0;
-        opacity : 0.9;
+        opacity: 0.9;
     }
 
         .login-container h2 {
@@ -45,27 +41,48 @@
         width: 100%;
     }
 
-    .button-group {
-        text-align: center;
-        margin-top: 10px;
+    .error-message {
+        color: red;
+        font-size: 0.875em;
+    }
+
+    .alert {
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 15px;
+        border: 1px solid #f5c6cb;
+        border-radius: 5px;
+        margin-bottom: 15px;
     }
 </style>
 
 <div class="bkgcont">
     <div class="login-container">
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <div class="alert">
+                @errorMessage
+            </div>
+        }
+
         @using (Html.BeginForm("Login", "User", FormMethod.Post))
         {
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="ID_LoginUser" name="username" class="form-control" />
+                <span id="usernameError" class="error-message"></span> <!-- Error message for username -->
             </div>
 
             <div class="form-group">
-                <label for="password">Password &emsp;&emsp;&emsp; <a href="~/ForgotPassword/Index">Forgot Password? </a></label>
+                <label for="password">Password &emsp;&emsp;&emsp;<a href="~/ForgotPassword/Index">Forgot Password?</a></label>
                 <input type="password" id="ID_LoginPass" name="password" class="form-control" />
-                <span id="passwordMessage" style="color:red;"></span> <!-- To show password validation message -->
-                <div><a href="~/User/ChangePassword">Need to change password?</a></div>
-                
+                <span id="passwordError" class="error-message"></span> <!-- Error message for password -->
+            </div>
+
+            <div class="form-group">
+                <img id="captchaImage" src="" alt="CAPTCHA Image" style="height: 40px; cursor: pointer;" title="Click to refresh" />
+                <input type="text" id="captchaInput" name="captcha" class="form-control" placeholder="Enter CAPTCHA" />
+                <span id="captchaError" class="error-message"></span> <!-- Error message for CAPTCHA -->
             </div>
 
             <div class="form-group">
@@ -73,49 +90,61 @@
             </div>
         }
 
-        <p>@ViewBag.Message</p>
-
-        <div class="button-group">
-            <div>
-                <p> New to <img src="~/images/mylapaylogo3.png" alt="Logo" style="height:25px;" />? <!-- Adjust the height as needed --><a href="~/User/Register">Register here.</a></p>
-            </div> 
-            
-           
+        <div>
+            <p>New to <img src="~/images/mylapaylogo3.png" alt="Logo" style="height:25px;" />? <a href="~/User/Register">Register here.</a></p>
         </div>
     </div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script>
     $(document).ready(function () {
+        // Load CAPTCHA image on page load
+        loadCaptcha();
+
+        // Refresh CAPTCHA image when clicked
+        $("#captchaImage").click(function () {
+            loadCaptcha();
+        });
+
+        function loadCaptcha() {
+            $("#captchaImage").attr("src", "@Url.Action("GenerateCaptcha", "User")?" + new Date().getTime());
+        }
+
+        // Validate form and handle submit
         $("#ID_LoginSubmit").click(function (event) {
             var username = $("#ID_LoginUser").val();
             var password = $("#ID_LoginPass").val();
+            var captchaInput = $("#captchaInput").val();
             var isValid = true;
-            var passwordMessage = $("#passwordMessage");
 
-            // Clear previous messages
-            passwordMessage.text("");
+            // Clear previous error messages
+            $(".error-message").text("");
 
-            // Check username
+            // Username validation
             if (username === "") {
-                alert("Username is required");
+                $("#usernameError").text("Username is required");
                 isValid = false;
             }
 
-            // Check password
+            // Password validation
             if (password === "") {
-                alert("Password is required");
+                $("#passwordError").text("Password is required");
                 isValid = false;
             } else {
-                // Password validation
                 var passwordRegex = /^(?=.*[A-Z])(?=.*[\W_]).{6,}$/;
                 if (!passwordRegex.test(password)) {
-                    passwordMessage.text('Password must contain at least one uppercase letter, one special character, and be at least 6 characters long.');
+                    $("#passwordError").text('Password must contain at least one uppercase letter, one special character, and be at least 6 characters long.');
                     isValid = false;
                 }
             }
 
-            // Prevent form submission if any validation fails
+            // CAPTCHA validation
+            if (captchaInput === "") {
+                $("#captchaError").text("CAPTCHA is required");
+                isValid = false;
+            }
+
             if (!isValid) {
                 event.preventDefault();
             }

@@ -1,7 +1,8 @@
-﻿using INTERNMvc.Models;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
+using INTERNMvc.Models;
 
-namespace INTERNMvc.DAL
+
+namespace INTERNMVCNew.DAL
 {
     public class UserDAL
     {
@@ -9,7 +10,35 @@ namespace INTERNMvc.DAL
 
         public UserDAL(IConfiguration configuration)
         {
-            connectionString = configuration.GetConnectionString("DbContext");
+            connectionString = configuration.GetConnectionString("DefaultConnection");
+        }
+
+        public bool IsUsernameExists(string username)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "SELECT COUNT(*) FROM UsersJ WHERE Username = @Username";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Username", username);
+
+                conn.Open();
+                int count = (int)cmd.ExecuteScalar();
+                return count > 0;
+            }
+        }
+
+        public bool IsEmailExists(string email)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "SELECT COUNT(*) FROM UsersJ WHERE Email = @Email";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Email", email);
+
+                conn.Open();
+                int count = (int)cmd.ExecuteScalar();
+                return count > 0;
+            }
         }
 
         public bool RegisterUser(User user)

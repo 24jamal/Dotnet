@@ -26,6 +26,23 @@
                     <ul class="navbar-nav flex-grow-1">
                        
                     </ul>
+
+
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (ViewContext.RouteData.Values["controller"].ToString() == "Employee" &&
+                        ViewContext.RouteData.Values["action"].ToString() == "SingleView")
+                        {
+                            <li class="nav-item">
+
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <a class="btn btn-outline-success mb-3" href="@Url.Action("Create", "Employee")">Create </a>
+                                <a class="btn btn-outline-info mb-3" href="@Url.Action("ChangePassword", "User")">Change Password</a>
+                                <a href="@Url.Action("Logout", "User")" class="btn btn-outline-secondary mb-3">Logout</a>
+
+                            </li>
+                        }
+                    </ul>
                     <ul class="navbar-nav flex-grow-1">
                         @if (ViewContext.RouteData.Values["controller"].ToString() == "Employee" &&
                         ViewContext.RouteData.Values["action"].ToString() == "Index")
